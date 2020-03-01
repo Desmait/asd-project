@@ -1,0 +1,93 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:focus {
+    outline: none;
+}
+
+.header__button {
+    width: 30%;
+    border: none;
+    padding: 3px;
+    background: lightgray;
+    color: black;
+}
+
+.header__button:hover {
+    background: #658bc9;
+}
+
+
+.left {
+    border-radius: 40px 0 0 40px;
+}
+
+.right {
+    border-radius: 0 40px 40px 0;
+    margin-left: 1px;
+}
+
+.item__card {
+    border: 3px solid lightgray;
+    margin-top: 15px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-orientation {
+    flex-direction: row;
+}
+
+.card__image {
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card__subtitle {
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.card__button {
+    background-color: #fdad54;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 0 auto 10px;
+}
+
+.row-button {
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.card__button:hover {
+    background: #658bc9;
+}
